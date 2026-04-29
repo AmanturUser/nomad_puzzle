@@ -1,0 +1,126 @@
+name: nomad_puzzle
+description: "Nomad Puzzle — tourism app with challenges, tours and camera."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_bloc: any
+  bloc: any
+  equatable: any
+
+  # Routing
+  go_router: any
+
+  # DI
+  get_it: any
+  injectable: any
+
+  # Data classes / serialization
+  freezed_annotation: any
+  json_annotation: any
+
+  # Networking
+  dio: any
+  pretty_dio_logger: any
+
+  # Storage
+  shared_preferences: any
+  flutter_secure_storage: any
+
+  # Camera
+  camera: any
+  image_picker: any
+  path_provider: any
+  permission_handler: any
+
+  # Voice (record + playback for AI chat)
+  record: any
+  audioplayers: any
+
+  # Utils
+  intl: any
+  cached_network_image: any
+  dartz: any
+
+  # Map
+  flutter_map: any
+  latlong2: any
+
+  # Motion / effects
+  confetti: any
+  shimmer: any
+  flutter_animate: any
+
+  # Typography
+  google_fonts: any
+
+  # Animations
+  lottie: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # Code generation
+  build_runner: any
+  freezed: any
+  json_serializable: any
+  injectable_generator: any
+
+  # Testing
+  bloc_test: any
+  mocktail: any
+
+  # Launcher icons
+  flutter_launcher_icons: any
+
+  # Splash screen
+  flutter_native_splash: any
+
+flutter_native_splash:
+  color: "#FFF9F3"
+  image: "assets/icons/app_logo.png"
+  android_12:
+    color: "#FFF9F3"
+    icon_background_color: "#FFF9F3"
+  android: true
+  ios: true
+  web: false
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_logo.png"
+  background_color_ios: "#FFF9F3"
+  remove_alpha_ios: true
+  min_sdk_android: 21
+  adaptive_icon_background: "#FFF9F3"
+  adaptive_icon_foreground: "assets/icons/app_logo.png"
+  web:
+    generate: false
+  windows:
+    generate: false
+  macos:
+    generate: false
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+    - assets/images/challenges/
+    - assets/icons/
+    - assets/animations/
