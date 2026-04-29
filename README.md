@@ -6,7 +6,7 @@
 
 ## Демо
 
-https://github.com/user-attachments/assets/692cff78-4362-49f4-93d5-5bc7d7f83511
+https://github.com/user-attachments/assets/a87a6b54-78b2-48b1-b3ec-3c60a9a9b491
 
 <p align="center">
   <img src="docs/screenshot-map.jpg" alt="Nomad Puzzle — главная карта" width="320" />
