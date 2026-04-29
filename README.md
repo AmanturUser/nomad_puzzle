@@ -6,26 +6,16 @@
 
 ## Демо
 
+https://github.com/user-attachments/assets/692cff78-4362-49f4-93d5-5bc7d7f83511
+
 <p align="center">
-  <a href="docs/demo.mp4">
-    <img src="docs/demo-poster.png" alt="Nomad Puzzle demo" width="280" />
-  </a>
+  <img src="docs/screenshot-map.jpg" alt="Nomad Puzzle — главная карта" width="320" />
 </p>
 
-<details>
-<summary>Inline-видео (нажми, если автоматически не проигрывается)</summary>
+Локальные копии демо в репозитории:
 
-<video src="docs/demo.mp4" poster="docs/demo-poster.png" controls width="320">
-  Если видео не отображается, скачай:
-  <a href="docs/demo.mp4">docs/demo.mp4</a>
-</video>
-
-</details>
-
-📥 Версии:
-
-- [`docs/demo.mp4`](docs/demo.mp4) — 2.4 MB, 480p, для inline-просмотра
-- [`docs/demo-hd.mp4`](docs/demo-hd.mp4) — 42 MB, 640×480, лучше качество
+- [`docs/demo.mp4`](docs/demo.mp4) — 2.4 MB, 480p
+- [`docs/demo-hd.mp4`](docs/demo-hd.mp4) — 42 MB, 640×480 (HD)
 
 ## О проекте
 
